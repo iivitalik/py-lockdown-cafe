@@ -1,3 +1,7 @@
+class VaccineError(Exception):
+    pass
+
+
 class NotVaccinatedError(Exception):
     pass
 
