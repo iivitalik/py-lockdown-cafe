@@ -1,6 +1,7 @@
 from cafe import Cafe
 from errors import NotVaccinatedError, NotWearingMaskError
 
+
 def go_to_cafe(friends: list[dict], cafe: Cafe) -> str:
     masks_needed = 0
 
